@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		CB5D52EC26662A07007724B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5D52EB26662A07007724B8 /* Preview Assets.xcassets */; };
 		CB5D52F726662A07007724B8 /* mypersonalassistant_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D52F626662A07007724B8 /* mypersonalassistant_swiftTests.swift */; };
 		CB5D530226662A07007724B8 /* mypersonalassistant_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D530126662A07007724B8 /* mypersonalassistant_swiftUITests.swift */; };
+		CB5D531126663205007724B8 /* LindebrosApiClient in Frameworks */ = {isa = PBXBuildFile; productRef = CB5D531026663205007724B8 /* LindebrosApiClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5D531126663205007724B8 /* LindebrosApiClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = "mypersonalassistant-swift";
+			packageProductDependencies = (
+				CB5D531026663205007724B8 /* LindebrosApiClient */,
+			);
 			productName = "mypersonalassistant-swift";
 			productReference = CB5D52E126662A03007724B8 /* mypersonalassistant-swift.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = CB5D52D826662A03007724B8;
+			packageReferences = (
+				CB5D530F26663205007724B8 /* XCRemoteSwiftPackageReference "LindebrosApiClient" */,
+			);
 			productRefGroup = CB5D52E226662A03007724B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -574,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB5D530F26663205007724B8 /* XCRemoteSwiftPackageReference "LindebrosApiClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lindebrothers/LindebrosApiClient";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB5D531026663205007724B8 /* LindebrosApiClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB5D530F26663205007724B8 /* XCRemoteSwiftPackageReference "LindebrosApiClient" */;
+			productName = LindebrosApiClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CB5D52D926662A03007724B8 /* Project object */;
 }
