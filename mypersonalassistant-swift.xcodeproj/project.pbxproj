@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5D52E526662A03007724B8 /* mypersonalassistant_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D52E426662A03007724B8 /* mypersonalassistant_swiftApp.swift */; };
+		CB5D52E726662A03007724B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D52E626662A03007724B8 /* ContentView.swift */; };
+		CB5D52E926662A07007724B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5D52E826662A07007724B8 /* Assets.xcassets */; };
+		CB5D52EC26662A07007724B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5D52EB26662A07007724B8 /* Preview Assets.xcassets */; };
+		CB5D52F726662A07007724B8 /* mypersonalassistant_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D52F626662A07007724B8 /* mypersonalassistant_swiftTests.swift */; };
+		CB5D530226662A07007724B8 /* mypersonalassistant_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D530126662A07007724B8 /* mypersonalassistant_swiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5D52F326662A07007724B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5D52D926662A03007724B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5D52E026662A03007724B8;
+			remoteInfo = "mypersonalassistant-swift";
+		};
+		CB5D52FE26662A07007724B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5D52D926662A03007724B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5D52E026662A03007724B8;
+			remoteInfo = "mypersonalassistant-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB5D52E126662A03007724B8 /* mypersonalassistant-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mypersonalassistant-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5D52E426662A03007724B8 /* mypersonalassistant_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypersonalassistant_swiftApp.swift; sourceTree = "<group>"; };
+		CB5D52E626662A03007724B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB5D52E826662A07007724B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5D52EB26662A07007724B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB5D52ED26662A07007724B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5D52F226662A07007724B8 /* mypersonalassistant-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mypersonalassistant-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5D52F626662A07007724B8 /* mypersonalassistant_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypersonalassistant_swiftTests.swift; sourceTree = "<group>"; };
+		CB5D52F826662A07007724B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5D52FD26662A07007724B8 /* mypersonalassistant-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mypersonalassistant-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5D530126662A07007724B8 /* mypersonalassistant_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mypersonalassistant_swiftUITests.swift; sourceTree = "<group>"; };
+		CB5D530326662A07007724B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5D52DE26662A03007724B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5D52EF26662A07007724B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5D52FA26662A07007724B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5D52D826662A03007724B8 = {
+			isa = PBXGroup;
+			children = (
+				CB5D52E326662A03007724B8 /* mypersonalassistant-swift */,
+				CB5D52F526662A07007724B8 /* mypersonalassistant-swiftTests */,
+				CB5D530026662A07007724B8 /* mypersonalassistant-swiftUITests */,
+				CB5D52E226662A03007724B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5D52E226662A03007724B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5D52E126662A03007724B8 /* mypersonalassistant-swift.app */,
+				CB5D52F226662A07007724B8 /* mypersonalassistant-swiftTests.xctest */,
+				CB5D52FD26662A07007724B8 /* mypersonalassistant-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5D52E326662A03007724B8 /* mypersonalassistant-swift */ = {
+			isa = PBXGroup;
+			children = (
+				CB5D52E426662A03007724B8 /* mypersonalassistant_swiftApp.swift */,
+				CB5D52E626662A03007724B8 /* ContentView.swift */,
+				CB5D52E826662A07007724B8 /* Assets.xcassets */,
+				CB5D52ED26662A07007724B8 /* Info.plist */,
+				CB5D52EA26662A07007724B8 /* Preview Content */,
+			);
+			path = "mypersonalassistant-swift";
+			sourceTree = "<group>";
+		};
+		CB5D52EA26662A07007724B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB5D52EB26662A07007724B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB5D52F526662A07007724B8 /* mypersonalassistant-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5D52F626662A07007724B8 /* mypersonalassistant_swiftTests.swift */,
+				CB5D52F826662A07007724B8 /* Info.plist */,
+			);
+			path = "mypersonalassistant-swiftTests";
+			sourceTree = "<group>";
+		};
+		CB5D530026662A07007724B8 /* mypersonalassistant-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5D530126662A07007724B8 /* mypersonalassistant_swiftUITests.swift */,
+				CB5D530326662A07007724B8 /* Info.plist */,
+			);
+			path = "mypersonalassistant-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5D52E026662A03007724B8 /* mypersonalassistant-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5D530626662A07007724B8 /* Build configuration list for PBXNativeTarget "mypersonalassistant-swift" */;
+			buildPhases = (
+				CB5D52DD26662A03007724B8 /* Sources */,
+				CB5D52DE26662A03007724B8 /* Frameworks */,
+				CB5D52DF26662A03007724B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mypersonalassistant-swift";
+			productName = "mypersonalassistant-swift";
+			productReference = CB5D52E126662A03007724B8 /* mypersonalassistant-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB5D52F126662A07007724B8 /* mypersonalassistant-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5D530926662A07007724B8 /* Build configuration list for PBXNativeTarget "mypersonalassistant-swiftTests" */;
+			buildPhases = (
+				CB5D52EE26662A07007724B8 /* Sources */,
+				CB5D52EF26662A07007724B8 /* Frameworks */,
+				CB5D52F026662A07007724B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5D52F426662A07007724B8 /* PBXTargetDependency */,
+			);
+			name = "mypersonalassistant-swiftTests";
+			productName = "mypersonalassistant-swiftTests";
+			productReference = CB5D52F226662A07007724B8 /* mypersonalassistant-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB5D52FC26662A07007724B8 /* mypersonalassistant-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5D530C26662A07007724B8 /* Build configuration list for PBXNativeTarget "mypersonalassistant-swiftUITests" */;
+			buildPhases = (
+				CB5D52F926662A07007724B8 /* Sources */,
+				CB5D52FA26662A07007724B8 /* Frameworks */,
+				CB5D52FB26662A07007724B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5D52FF26662A07007724B8 /* PBXTargetDependency */,
+			);
+			name = "mypersonalassistant-swiftUITests";
+			productName = "mypersonalassistant-swiftUITests";
+			productReference = CB5D52FD26662A07007724B8 /* mypersonalassistant-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5D52D926662A03007724B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CB5D52E026662A03007724B8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CB5D52F126662A07007724B8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CB5D52E026662A03007724B8;
+					};
+					CB5D52FC26662A07007724B8 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CB5D52E026662A03007724B8;
+					};
+				};
+			};
+			buildConfigurationList = CB5D52DC26662A03007724B8 /* Build configuration list for PBXProject "mypersonalassistant-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5D52D826662A03007724B8;
+			productRefGroup = CB5D52E226662A03007724B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5D52E026662A03007724B8 /* mypersonalassistant-swift */,
+				CB5D52F126662A07007724B8 /* mypersonalassistant-swiftTests */,
+				CB5D52FC26662A07007724B8 /* mypersonalassistant-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5D52DF26662A03007724B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5D52EC26662A07007724B8 /* Preview Assets.xcassets in Resources */,
+				CB5D52E926662A07007724B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5D52F026662A07007724B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5D52FB26662A07007724B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5D52DD26662A03007724B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5D52E726662A03007724B8 /* ContentView.swift in Sources */,
+				CB5D52E526662A03007724B8 /* mypersonalassistant_swiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5D52EE26662A07007724B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5D52F726662A07007724B8 /* mypersonalassistant_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5D52F926662A07007724B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5D530226662A07007724B8 /* mypersonalassistant_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5D52F426662A07007724B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5D52E026662A03007724B8 /* mypersonalassistant-swift */;
+			targetProxy = CB5D52F326662A07007724B8 /* PBXContainerItemProxy */;
+		};
+		CB5D52FF26662A07007724B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5D52E026662A03007724B8 /* mypersonalassistant-swift */;
+			targetProxy = CB5D52FE26662A07007724B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB5D530426662A07007724B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB5D530526662A07007724B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5D530726662A07007724B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mypersonalassistant-swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mypersonalassistant-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lindebros.com.mypersonalassistant-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB5D530826662A07007724B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mypersonalassistant-swift/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "mypersonalassistant-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lindebros.com.mypersonalassistant-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB5D530A26662A07007724B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mypersonalassistant-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lindebros.com.mypersonalassistant-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mypersonalassistant-swift.app/mypersonalassistant-swift";
+			};
+			name = Debug;
+		};
+		CB5D530B26662A07007724B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mypersonalassistant-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lindebros.com.mypersonalassistant-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mypersonalassistant-swift.app/mypersonalassistant-swift";
+			};
+			name = Release;
+		};
+		CB5D530D26662A07007724B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mypersonalassistant-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lindebros.com.mypersonalassistant-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mypersonalassistant-swift";
+			};
+			name = Debug;
+		};
+		CB5D530E26662A07007724B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mypersonalassistant-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lindebros.com.mypersonalassistant-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mypersonalassistant-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5D52DC26662A03007724B8 /* Build configuration list for PBXProject "mypersonalassistant-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5D530426662A07007724B8 /* Debug */,
+				CB5D530526662A07007724B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5D530626662A07007724B8 /* Build configuration list for PBXNativeTarget "mypersonalassistant-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5D530726662A07007724B8 /* Debug */,
+				CB5D530826662A07007724B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5D530926662A07007724B8 /* Build configuration list for PBXNativeTarget "mypersonalassistant-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5D530A26662A07007724B8 /* Debug */,
+				CB5D530B26662A07007724B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5D530C26662A07007724B8 /* Build configuration list for PBXNativeTarget "mypersonalassistant-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5D530D26662A07007724B8 /* Debug */,
+				CB5D530E26662A07007724B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5D52D926662A03007724B8 /* Project object */;
+}
